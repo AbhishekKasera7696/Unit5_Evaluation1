@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .vege {
+    display: flex;
+    width: 300px;
+  }
+  
+  .vege h1 {
+    margin-right: 1%;
+  }
+  
+  #main {
+    margin-left: 5%;
+    display: flex;
+  }
+  
+  #wish {
+    width: 300px;
+  }

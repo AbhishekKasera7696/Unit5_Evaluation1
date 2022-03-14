@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Vegetables from './Components/vegetable';
+import Wishlist from './Components/Wishlist';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = 'big-container'>
+    <div>
+      <Vegetables name="Tomatoes"/>
+      <Vegetables name="Potatoes"/>
+      <Vegetables name="Carrots"/>
+      <Vegetables name="Onions"/>
+    </div>
+
+    <div><Wishlist/></div>
+
     </div>
   );
 }
