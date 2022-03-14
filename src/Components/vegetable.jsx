@@ -2,7 +2,8 @@ import React from "react";
 import './Wishlist.css'
 
 const Vegetables = (props) => {
-  const [counter, setCounter] = React.useState(0);
+  let count = props.startCount;
+  const [counter, setCounter] = React.useState(count);
 
   const handleIncrement = (value) => {
     setCounter(counter + value);

@@ -6,16 +6,16 @@ import Wishlist from './Components/Wishlist';
 function App() {
   return (
     <div className = 'big-container'>
-    <div>
-      <Vegetables name="Tomatoes"/>
-      <Vegetables name="Potatoes"/>
-      <Vegetables name="Carrots"/>
-      <Vegetables name="Onions"/>
-    </div>
+      <div>
+       <Vegetables name="Tomatoes" startCount = {10}/>
+       <Vegetables name="Potatoes" startCount = {8} />
+       <Vegetables name="Carrots"  startCount = {5}/>
+       <Vegetables name="Onions"  startCount = {7}/>
+     </div>
 
-    <div><Wishlist/></div>
+     <div><Wishlist/></div>
 
-    </div>
+   </div>
   );
 }
 

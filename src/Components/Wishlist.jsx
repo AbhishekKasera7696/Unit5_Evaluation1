@@ -17,7 +17,7 @@ function show() {
     let val = document.getElementById("inputVal").value
     list.push(val);
     let display = document.getElementById("display")
-    // console.log(val);
+    
     if(list.length<=3){
         let h2 = document.createElement("h2");
         h2.textContent = val
